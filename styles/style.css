@@ -39,8 +39,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 .apresentacao__conteudo{
-    width: 615px;
+    width: 39rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -117,7 +118,12 @@ body{
     }
 
     .apresentacao__conteudo{
-        width: auto;
+        width: 100%;
     }
-    
+    .apresentacao__conteudo__titulo{
+        font-size: 2rem;
+    }
+    .apresentacao__links__link{
+        width:65%;
+    }
 }
